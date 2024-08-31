@@ -426,11 +426,11 @@ port 49 nsew signal output
 flabel metal4 s 11838 44952 11898 45152 0 FreeSans 480 90 0 0 uo_out[7]
 port 50 nsew signal output
 flabel metal4 s 1800 1200 2400 44152 0 FreeSans 160 0 0 0 VGND
-port 51 nsew
+port 51 nsew ground input
 flabel metal4 s 1000 800 1600 44152 0 FreeSans 160 0 0 0 VDPWR
-port 52 nsew
+port 52 nsew power input
 flabel metal4 s 2600 1600 3200 44152 0 FreeSans 160 0 0 0 VAPWR
-port 53 nsew
+port 53 nsew power input
 << properties >>
 string FIXED_BBOX 0 0 29072 45152
 << end >>
