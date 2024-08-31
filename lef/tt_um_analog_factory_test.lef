@@ -421,6 +421,7 @@ MACRO tt_um_analog_factory_test
     END
   END uo_out[7]
   PIN VGND
+    DIRECTION INPUT ;
     USE GROUND ;
     PORT
       LAYER met4 ;
@@ -428,14 +429,16 @@ MACRO tt_um_analog_factory_test
     END
   END VGND
   PIN VDPWR
-    ANTENNADIFFAREA 81.535995 ;
+    DIRECTION INPUT ;
+    USE POWER ;
     PORT
       LAYER met4 ;
         RECT 5.000 4.000 8.000 220.760 ;
     END
   END VDPWR
   PIN VAPWR
-    ANTENNADIFFAREA 77.163200 ;
+    DIRECTION INPUT ;
+    USE POWER ;
     PORT
       LAYER met4 ;
         RECT 13.000 8.000 16.000 220.760 ;
