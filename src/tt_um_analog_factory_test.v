@@ -20,9 +20,9 @@ module tt_um_analog_factory_test (
 		.VGND      (VGND),
 		.VDPWR     (VDPWR),
 		.VAPWR     (VAPWR),
-		.ena_1v8_n (ui_in[1])
+		.ena_1v8_n (ui_in[1]),
 		.ena_3v3_n (ui_in[0]),
-		.ibias     (ua[0]),
+		.ibias     (ua[0])
 	);
 
 	// Power sense
